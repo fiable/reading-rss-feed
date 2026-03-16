@@ -33,7 +33,3 @@ jobs:
     steps:
       - uses: actions/deploy-pages@v4
         id: deployment
-
-Dans l'onglet **Actions** du repo, lance le workflow manuellement pour vérifier que ça fonctionne. Ton flux sera alors accessible à :
-```
-https://TON_USERNAME.github.io/manga-rss-feed/merged.xml
